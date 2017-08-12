@@ -7,11 +7,14 @@
 ###############
 #Aliases/functions defined by ROBERT
 ###############
-alias ll='ls -ltrG --color=always'
-alias ls='ls -G --color=always'
+
+#alias ll='ls -ltrG' 
+#alias ls='ls -G'
+alias ll='ls -ltrG --color=always' #doesn't work for mac
+alias ls='ls -G --color=always'    #doesn't work for mac
 alias root='root -l'
-#alias emacs='emacs -nw'
-#alias open='xdg-open' #opening pdf
+#alias emacs='emacs -nw'           #used for remote systems
+#alias open='xdg-open' #opening pdf #doesn't work for mac
 alias rm='rm -i'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'

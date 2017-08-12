@@ -5,3 +5,9 @@ Specific setups should be added by hand as needed
 
 Run startup.sh to copy from this directory to home directory and hear more options
 
+After making changes do:
+git push origin master
+
+To update this directory do:
+git pull
+
