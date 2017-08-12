@@ -1,0 +1,7 @@
+This is a repository for basic initialization scripts
+This allows for consistency across platforms
+
+Specific setups should be added by hand as needed
+
+Run startup.sh to copy from this directory to home directory and hear more options
+

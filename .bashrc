@@ -4,11 +4,14 @@
 #Use this script to put aliases, functions, etc that can be used accross platforms
 #Use .bash_profile for local aliases, PATH/LD_LIBRARY_PATH definitions, etc
 
-#aliases/functions
-alias ll='ls -ltrG'
-alias ls='ls -G'
+###############
+#Aliases/functions defined by ROBERT
+###############
+alias ll='ls -ltrG --color=always'
+alias ls='ls -G --color=always'
 alias root='root -l'
 #alias emacs='emacs -nw'
+#alias open='xdg-open' #opening pdf
 alias rm='rm -i'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
