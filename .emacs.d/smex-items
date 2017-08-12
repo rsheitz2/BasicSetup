@@ -1,0 +1,30 @@
+
+;; ----- smex-history -----
+(
+ ediff-files
+ load-file
+ align-regexp
+ replace-regexp
+ list-packages
+ paradox-list-packages
+ speedbar
+)
+
+;; ----- smex-data -----
+(
+ (paradox-list-packages . 11)
+ (customize-themes . 1)
+ (ediff . 2)
+ (ediff-files . 5)
+ (list-packages . 10)
+ (try . 3)
+ (2048-game . 1)
+ (swiper . 2)
+ (eval-region . 1)
+ (package-refresh-contents . 2)
+ (compile . 2)
+ (speedbar . 1)
+ (align-regexp . 5)
+ (replace-regexp . 2)
+ (load-file . 4)
+)

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: RootTGraphErrors
+# key: TGraphErrors
+# --
+TGraphErrors* ${1:gr} = new TGraphErrors(${2:num}, ${3:xpoints}, ${4:ypoints}, ${5:ex}, ${6:ey});
+$0

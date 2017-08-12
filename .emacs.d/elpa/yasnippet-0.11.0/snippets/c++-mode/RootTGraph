@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: RootTGraph
+# key: TGraph
+# --
+TGraph* ${1:enumerate} = new TGraph(${2:num}, ${3:xpoints}, ${4:ypoints});
+$1->SetMarkerStyle(21);
+$1->SetMarkerColor(4);
+$1->SetMarkerSize(1.6);
+$0

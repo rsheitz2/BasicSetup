@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: RootTF1
+# key: TF1
+# --
+TF1* ${1:enumerate} = new TF1("$1", "{$2:x}", ${3:-10}, ${4:10});

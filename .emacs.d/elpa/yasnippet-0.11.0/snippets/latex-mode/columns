@@ -1,0 +1,8 @@
+# contributor: Rob the beast Heitz
+# name: \begin{columns} ... \end{columns}
+# key: columns
+# --
+\begin{columns}
+  \column{${1:0.47}\textwidth}
+  $0
+\end{columns}

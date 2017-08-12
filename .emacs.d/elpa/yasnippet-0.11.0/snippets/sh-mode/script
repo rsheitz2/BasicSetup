@@ -1,0 +1,16 @@
+# name: script
+# key: script
+# --
+#!/bin/bash
+
+if [ $# -ne ${1:number} ]; then
+    echo "" 
+    echo "${2}"
+    echo ""
+    echo "${3}"
+    echo ""
+    
+else
+echo ""
+
+fi

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: RootTCanvas
+# key: TCanvas
+# --
+TCanvas* ${1:c1} = new TCanvas();

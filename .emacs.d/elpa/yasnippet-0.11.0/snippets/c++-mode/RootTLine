@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: RootTLine
+# key: TLine
+# --
+Double_t min_x = ${1:enumerate}->GetXaxis()->GetXmin();	
+Double_t max_x = $1->GetXaxis()->GetXmax();	
+TLine* ${2:enumerate} = new TLine(min_x, ${3:0}, max_x, ${4:0});
+//$2->SetLineColor(1);
+//$2->SetLineStyle(8);
+//$2->Draw("same");
+$0

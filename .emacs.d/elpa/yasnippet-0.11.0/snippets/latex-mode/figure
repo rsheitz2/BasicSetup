@@ -1,0 +1,9 @@
+# name: \begin{figure} ... \end{figure}
+# key: figure
+# --
+\begin{figure}
+  \centering
+  \includegraphics[width=${1:0.6}\textwidth]{$2}
+  \caption{$3}
+  \label{fig:$2}$0
+\end{figure}

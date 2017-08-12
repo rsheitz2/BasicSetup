@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: RootTH1
+# key: TH1
+# --
+TH1${1:enumerate}* ${2:enumerate} = new TH1$1("$2", "$2", ${3:100}, ${4:0}, ${5:100});

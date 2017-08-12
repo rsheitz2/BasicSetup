@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: RootTFile
+# key: TFile
+# --
+TFile* ${1:enumerate} = new TFile("${2:Write}.root", "RECREATE");
+$1->Close();
+$0

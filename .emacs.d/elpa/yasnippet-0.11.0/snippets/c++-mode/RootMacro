@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Rootmacro
+# key: macro
+# --
+void ${1:Rootmacro}(){
+     $0
+}

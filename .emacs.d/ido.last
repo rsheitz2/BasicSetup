@@ -1,0 +1,66 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/" . "HEP2017/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/" . "Conferences/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/HEP2017/" . "Tex/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/Talk/" . "Tex/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/" . "Talk/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/" . "Prelim/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/" . "MyPapers/")
+ ("/Users/robertheitz/Documents/Research/DrellYan/" . "Papers/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/HEP2017/Tex/"
+ "/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/Talk/Tex/"
+ "/Users/robertheitz/"
+ "/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/HEP2017/"
+ "/Users/robertheitz/Documents/Research/DrellYan/COMPASS/Analysis/alignment/alignmentStudies/scripts/DetectorDatChanges/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Conclusion_backup.tex"
+ "Drell_Yan.tex"
+ "COMPASS.tex"
+ "Introduction.tex"
+ "Cover.tex"
+ "MyFuture.tex"
+ "DataAnalysis.tex"
+ "commands.txt"
+ "DriftChamber05.tex"
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/HEP2017/Tex/" (22870 15749 0 0) "Notes.tex" "Introduction.tex" "Drell_Yan.tex" "Cover.tex" "Conclusion_backup.tex" "COMPASS.tex" "commands.txt" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/HEP2017/" (22870 11866 0 0) "Tex/" "TalkPics.key" "SupportingTalks/" "Papers/" "Img/" "Heitz_HEP2017.toc" "Heitz_HEP2017.tex" "Heitz_HEP2017.snm" "Heitz_HEP2017.pdf" "Heitz_HEP2017.out" "Heitz_HEP2017.nav" "Heitz_HEP2017.log" "Heitz_HEP2017.aux" "Drafts/" "Abstract/" "../" "./")
+
+ ("/Users/robertheitz/" (22869 62000 0 0) "weekly/" "Reciepts/" "Public/" "Pictures/" "Music/" "Movies/" "local/" "Library/" "Guide_lines_for_plots.pdf" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc~" ".zshrc" ".Xauthority" ".vnc/" ".vimperator/" ".viminfo" ".Trash/" ".tmux.conf~" ".tmux.conf" ".subversion/" ".ssh/" ".sh_history" ".serverauth.804" ".serverauth.3986" ".serverauth.3966" ".serverauth.3407" ".serverauth.3064" ".serverauth.1048" ".rootnb/" ".root_hist" ".rnd" ".putty/" ".oracle_jre_usage/" ".matplotlib/" ".lesshst" ".jupyter/" ".ipython/" ".ipynb_checkpoints/" ".history" ".enstaller4rc" ".emacs~" ".emacs_backups/" ".emacs.d/" ".emacs" ".DS_Store" ".datathief/" ".config/" ".cisco/" ".cheat/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile~" ".bash_profile.macports-saved_2017-05-03_at_14:12:37" ".bash_profile" ".bash_history" ".anyconnect" ".android/" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/Talk/Tex/" (22869 61051 0 0) "MyFuture.tex" "Introduction.tex" "DriftChamber05.tex" "DrellYan.tex" "DataAnalysis.tex" "COMPASS.tex" "Backup.tex" "Alignment.tex" ".#DriftChamber05.tex" "#DriftChamber05.tex#" "#DrellYan.tex#" "#Backup.tex#" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/COMPASS/Analysis/alignment/alignmentStudies/scripts/DetectorDatChanges/" (22864 54143 0 0) "traf.W09.ai1.run260876.cdr12015.phys.root" "traf.W09.ai1.run260626.cdr11022.root" "Traf/" "ResolutionPositionDiff.py" "PositionDiff.py" "DetectorDat/" "CheckTracks.C" "AnglePitchDiff.py" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/Talk/" (22784 64913 0 0) "x.log" "Views.pages" "Tex/" "RHeitzPrelimTalk.toc" "RHeitzPrelimTalk.tex" "RHeitzPrelimTalk.snm" "RHeitzPrelimTalk.pdf" "RHeitzPrelimTalk.out" "RHeitzPrelimTalk.nav" "RHeitzPrelimTalk.log" "RHeitzPrelimTalk.aux" "Presentations/" "PrelimPics.key" "Papers/" "Img/" "Drafts/" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/Prelim/" (22766 16166 0 0) "Talk/" "RHeitzPrelim/" "Papers/" "Outline/" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/MyPapers/" (22692 51660 0 0) "Prelim/" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Papers/" (22861 36078 0 0) "Thesis/" "Release/" "Prelims/" "MyPapers/" "DY/" "Books/" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/" (22767 33936 0 0) "Presents/" "Papers/" "COMPASS/" "Analysis_BW_DrellYan_Outputs/" "Analysis/" ".DS_Store" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/" (22773 346 0 0) "Subgroup/" "Illinois/" "Conferences/" ".DS_Store" "../" "./")
+
+ ("/Users/robertheitz/Documents/Research/DrellYan/Presents/Conferences/" (22765 1579 0 0) "Spin2016/" "IWHSS_2015/" "HEP2017/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

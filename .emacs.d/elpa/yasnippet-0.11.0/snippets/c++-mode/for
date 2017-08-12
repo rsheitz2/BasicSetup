@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for
+# key: for
+# --
+for (Int_t ${1:enumerate}=0; $1<${2:N}; $1${3:++}) {
+    $0
+}
