@@ -30,12 +30,12 @@ alias tmuxnew="tmux new -s"
 alias tmuxcd='tmux switch -t'
 
 function cl(){
-    cd $1
-    ll}
+    cd $1;
+    ll; }
 function path_append ()  { path_remove $1; export PATH="$PATH:$1"; }
 function path_prepend () { path_remove $1; export PATH="$1:$PATH"; }
 function path_remove (){
     export PATH=`echo -n $PATH | awk -v RS=: -v ORS=: '$0 != "'$1'"' | sed 's/:$//'`;}
 function mkcd (){
-    mkdir $1
-    cd $1}
+    mkdir $1;
+    cd $1; }
