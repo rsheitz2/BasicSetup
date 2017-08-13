@@ -1,0 +1,13 @@
+# name: script
+# key: script
+# --
+#!/usr/bin/env python
+
+import sys
+
+if len(sys.argv) < $1:
+    print "Script description"
+    print " "
+    print "Script usage"
+else:
+    $0

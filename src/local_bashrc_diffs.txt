@@ -1,0 +1,5 @@
+cern=ssh -Y rheitz@lxplus.cern.ch
+northarea=ssh -Y na58dst2@lxplus.cern.ch
+lyon=ssh -Y rheitz@ccage.in2p3.fr
+blueWaters=ssh -Y heitz@h2ologin3.ncsa.illinois.edu
+open=xdg-open
