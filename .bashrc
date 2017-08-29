@@ -36,6 +36,16 @@ function path_append ()  { path_remove $1; export PATH="$PATH:$1"; }
 function path_prepend () { path_remove $1; export PATH="$1:$PATH"; }
 function path_remove (){
     export PATH=`echo -n $PATH | awk -v RS=: -v ORS=: '$0 != "'$1'"' | sed 's/:$//'`;}
+function ld_path_append ()  { path_remove $1; 
+    export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$1"; }
+function ld_path_prepend () { path_remove $1; 
+    export LD_LIBRARY_PATH="$1:$LD_LIBRARY_PATH"; }
+function ld_path_remove (){
+    export LD_LIBRARY_PATH=`echo -n $LD_LIBRARY_PATH \
+    | awk -v RS=: -v ORS=: '$0 != "'$1'"' | sed 's/:$//'`;}
 function mkcd (){
     mkdir $1;
     cd $1; }
+
+#Needed to launch zsh from bash
+#unset FPATH #bluewaters specific
