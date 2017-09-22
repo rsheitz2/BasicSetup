@@ -20,6 +20,7 @@
 (add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-3 80)))
 (add-hook 'python-mode-hook (lambda () (interactive) (column-marker-3 80)))
 (add-hook 'latex-mode-hook (lambda () (interactive) (column-marker-3 80)))
+(add-hook 'sh-mode-hook (lambda () (interactive) (column-marker-3 80)))
 ;;C-u 80 M-x column-marker-3
 
 ;;latex-preview
